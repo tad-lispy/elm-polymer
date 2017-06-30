@@ -1,0 +1,14 @@
+#! /usr/bin/env bash
+
+set -euo pipefail
+
+components=$(
+  js-yaml \
+    "web-components.yml" \
+    | jq \
+      --raw-output \
+      '.collections[].components[]'
+)
+
+rm -rf assets/*
+bower install $components
