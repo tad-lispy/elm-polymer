@@ -1,0 +1,45 @@
+# Web components used in UI
+
+# TODO: Make a list of all components (with description) and some scripts to:
+#   - Generate web-components.html to import
+#   - Generate Elm source files a'la UI/App/Layout.elm
+
+collections:
+  paper:
+    name: Paper Elements
+    components:
+      # paper-ui-elements
+      - paper-badge
+      - paper-button
+      - paper-card
+      - paper-dropdown-menu
+      - paper-icon-button
+      - paper-item
+      - paper-menu-button
+      - paper-progress
+      - paper-spinner
+      - paper-swatch-picker
+      - paper-tabs
+      - paper-toolbar
+      - paper-tooltip
+      - paper-styles
+
+      # paper-input-elements
+      - paper-checkbox
+      - paper-dropdown-menu
+      - paper-input
+      - paper-listbox
+      - paper-radio-button
+      - paper-radio-group
+      - paper-slider
+      - paper-toggle-button
+
+  iron:
+    name: Iron UI Elements
+    components:
+      - iron-icons # Required for paper-icon-button
+
+  app:
+    name: App UI element
+    components:
+      - app-layout

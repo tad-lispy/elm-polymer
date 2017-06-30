@@ -1,0 +1,72 @@
+#! /usr/bin/env bash
+
+# This will generete Elm code in src/ directory.
+#
+# NOTE: It will first remove whatever is currently there.  If you have some
+#       uncommited changes - commit them first, so you can later merge.
+
+source "scripts/common.sh"
+
+function write_module {
+  local name=$1       # Elm comaptible module name
+  local type=$2       # elements | attributes | events
+  local prefix=$3     # prefix to drop from each element function name
+  local analysis="$4" # JSON string
+
+
+
+  local path=$(echo ${name} | module_to_path )
+  echo "Generating ${name} module (${type})"
+  echo "Writing Elm code to ${path}"
+  mkdir -p "$(dirname ${path})"
+  echo ${analysis} \
+    | scripts/generate-${type}.sh ${name} ${prefix} \
+    > ${path}
+
+  elm-format-0.18 --yes ${path} \
+    || echo "
+      Failed to format ${path}. Please fix it manually.
+    " 1>&2 
+}
+
+api="https://www.webcomponents.org/api"
+
+# Begin:
+
+rm -rf src/Polymer/*
+# Write common attribute helpers
+envsubst \
+  < "templates/attributes-helpers.elm" \
+  > "src/Polymer/Attributes.elm"
+
+collections=$(
+  js-yaml \
+    web-components.yml \
+    | jq \
+    --raw-output \
+    ' .collections | keys | .[] '
+)
+for collection in ${collections}
+do
+  components=$(
+    js-yaml \
+      web-components.yml \
+      | jq \
+      --raw-output \
+      ".collections[\"${collection}\"].components[]"
+  )
+  for component in ${components}
+  do
+    module=$( echo ${component} | component_to_module_name )
+    url="${api}/docs/PolymerElements/${component}?use_analyzer_data"
+    echo "Fetching analysis data from ${url}"
+    analysis=$(http ${url} | jq ' .analysis ')
+
+    # Generate elements and attributes module
+
+    write_module ${module} elements ${collection} "${analysis}"
+    write_module ${module}.Attributes attributes ${collection} "${analysis}"
+    # write_module ${module}.Events events ${collection} "${analysis}"
+
+  done
+done
