@@ -1,0 +1,33 @@
+{
+  "name": "elm-polymer",
+  "version": "0.0.0",
+  "description": "Elm bindings Elm bindings to some PolymerElements Web Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lzrski/elm-polymer.git"
+  },
+  "keywords": [
+    "Elm",
+    "Polymer",
+    "Web",
+    "Components",
+    "Custom",
+    "Elements",
+    "Attributes"
+  ],
+  "author": "Tadeusz Lazurski (https://www.lazurski.pl/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lzrski/elm-polymer/issues"
+  },
+  "homepage": "https://github.com/lzrski/elm-polymer#readme",
+  "devDependencies": {
+    "elm": "^0.18.0",
+    "elm-format": "^0.6.1-alpha",
+    "js-yaml": "^3.8.4"
+  }
+}
