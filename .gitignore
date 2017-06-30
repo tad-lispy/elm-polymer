@@ -1,0 +1,12 @@
+elm-stuff
+node_modules
+built/
+dist/
+data/
+wiki/
+node_modules/
+bower_components/
+npm-debug.log
+*.sublime-workspace
+.DS_Store
+.idea/
