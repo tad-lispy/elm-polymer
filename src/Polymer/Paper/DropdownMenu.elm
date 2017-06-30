@@ -1,6 +1,6 @@
 module Polymer.Paper.DropdownMenu exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| Material design: [Dropdown menus](https://www.google.com/design/spec/components/buttons.html#buttons-dropdown-buttons)

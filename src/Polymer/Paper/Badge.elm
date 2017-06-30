@@ -1,6 +1,6 @@
 module Polymer.Paper.Badge exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| `<paper-badge>` is a circular text badge that is displayed on the top right

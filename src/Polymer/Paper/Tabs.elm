@@ -1,6 +1,6 @@
 module Polymer.Paper.Tabs exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| `paper-tab` is styled to look like a tab. It should be used in conjunction with

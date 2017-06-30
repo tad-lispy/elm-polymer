@@ -1,6 +1,6 @@
 module Polymer.Paper.Card exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| Material design: [Cards](https://www.google.com/design/spec/components/cards.html)

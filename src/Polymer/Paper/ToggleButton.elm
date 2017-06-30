@@ -1,6 +1,6 @@
 module Polymer.Paper.ToggleButton exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| Material design: [Switch](https://www.google.com/design/spec/components/selection-controls.html#selection-controls-switch)

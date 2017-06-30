@@ -1,6 +1,6 @@
 module Polymer.Paper.SwatchPicker exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| This is a simple color picker element that will allow you to choose one

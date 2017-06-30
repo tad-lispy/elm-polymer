@@ -1,6 +1,6 @@
 module Polymer.Paper.Toolbar exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| *This element has been deprecated in favor of [app-layout](https://github.com/PolymerElements/app-layout).**

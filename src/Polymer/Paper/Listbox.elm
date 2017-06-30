@@ -1,6 +1,6 @@
 module Polymer.Paper.Listbox exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| Material design: [Menus](https://www.google.com/design/spec/components/menus.html)

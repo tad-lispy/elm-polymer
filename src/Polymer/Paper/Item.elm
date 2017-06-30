@@ -1,6 +1,6 @@
 module Polymer.Paper.Item exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| Material design: [Lists](https://www.google.com/design/spec/components/lists.html)

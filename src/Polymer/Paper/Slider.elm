@@ -1,6 +1,6 @@
 module Polymer.Paper.Slider exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| Material design: [Sliders](https://www.google.com/design/spec/components/sliders.html)

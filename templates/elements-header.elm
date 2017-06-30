@@ -1,3 +1,3 @@
 module ${name} exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)

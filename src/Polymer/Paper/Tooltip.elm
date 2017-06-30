@@ -1,6 +1,6 @@
 module Polymer.Paper.Tooltip exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| Material design: [Tooltips](https://www.google.com/design/spec/components/tooltips.html)

@@ -1,6 +1,6 @@
 module Polymer.App.Layout exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| app-drawer is a navigation drawer that can slide in from the left or right.

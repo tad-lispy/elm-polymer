@@ -1,6 +1,6 @@
 module Polymer.Paper.Button exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| Material design: [Buttons](https://www.google.com/design/spec/components/buttons.html)

@@ -1,6 +1,6 @@
 module Polymer.Paper.MenuButton exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| -}

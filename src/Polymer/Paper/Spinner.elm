@@ -1,6 +1,6 @@
 module Polymer.Paper.Spinner exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| Material design: [Progress & activity](https://www.google.com/design/spec/components/progress-activity.html)

@@ -1,6 +1,6 @@
 module Polymer.Paper.Input exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| `<paper-input-char-counter>` is a character counter for use with `<paper-input-container>`. It

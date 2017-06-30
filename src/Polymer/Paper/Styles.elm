@@ -1,6 +1,6 @@
 module Polymer.Paper.Styles exposing (..)
 
-import Html exposing (Html, node)
+import Html exposing (Html, Attribute, node)
 
 
 {-| The `<paper-styles>` component provides simple ways to use Material Design CSS styles
