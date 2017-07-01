@@ -24,5 +24,5 @@ echo "
 for component in ${components}
 do
   echo \
-    "<link rel='import' href='./${component}/${component}.html' />"
+    "<link rel='import' href='${component}/${component}.html' />"
 done

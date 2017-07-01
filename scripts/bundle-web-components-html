@@ -5,4 +5,7 @@ set -euo pipefail
 polymer-bundler \
   --root=assets/ \
   --strip-comments \
+  --inline-css \
+  --inline-scripts \
+  --sourcemaps \
   web-components.html
