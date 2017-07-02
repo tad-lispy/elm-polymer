@@ -20,7 +20,7 @@
     "Attributes"
   ],
   "author": "Tadeusz Lazurski (https://www.lazurski.pl/)",
-  "license": "ISC",
+  "license": "BSD3",
   "bugs": {
     "url": "https://github.com/lzrski/elm-polymer/issues"
   },

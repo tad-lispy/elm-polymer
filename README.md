@@ -1,6 +1,6 @@
 # Elm Polymer
 
-Elm bindings to [PolymerElements Web Components][PolymerElements].
+Elm bindings to some of the [PolymerElements Web Components][PolymerElements].
 
 > Warning: This is an experiment on a rather early stage.
 
