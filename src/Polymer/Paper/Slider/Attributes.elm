@@ -1,5 +1,14 @@
 module Polymer.Paper.Slider.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs active, ariaActiveAttribute, disabled, dragging, editable, expand, focused, immediateValue, max, maxMarkers, min, name, noink, pin, pointerDown, pressed, ratio, receivedFocusFromKeyboard, required, secondaryProgress, snaps, step, stopKeyboardEventPropagation, toggles, transiting, value
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

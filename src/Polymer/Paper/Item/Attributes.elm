@@ -1,5 +1,14 @@
 module Polymer.Paper.Item.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs active, ariaActiveAttribute, disabled, focused, pointerDown, pressed, receivedFocusFromKeyboard, stopKeyboardEventPropagation, toggles
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

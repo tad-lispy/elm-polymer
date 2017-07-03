@@ -1,5 +1,14 @@
 module Polymer.Paper.SwatchPicker.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs color, columnCount, horizontalAlign, noink, verticalAlign
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

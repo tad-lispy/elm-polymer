@@ -1,5 +1,14 @@
 module Polymer.Paper.IconButton.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs active, alt, ariaActiveAttribute, disabled, focused, icon, noink, pointerDown, pressed, receivedFocusFromKeyboard, src, stopKeyboardEventPropagation, toggles
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

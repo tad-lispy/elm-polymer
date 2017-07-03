@@ -1,5 +1,14 @@
 module Polymer.Paper.Slider exposing (..)
 
+{-| Elements from paper-slider component. See <https://www.webcomponents.org/element/PolymerElements/paper-slider>
+
+
+# Elements
+
+@docs slider
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

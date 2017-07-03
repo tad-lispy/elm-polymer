@@ -1,5 +1,14 @@
 module Polymer.Paper.Tooltip.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs animationDelay, entryAnimation, exitAnimation, fitToVisibleBounds, for, manualMode, marginTop, offset, position
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

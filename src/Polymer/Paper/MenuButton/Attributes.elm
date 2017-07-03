@@ -1,5 +1,14 @@
 module Polymer.Paper.MenuButton.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs allowOutsideScroll, closeOnActivate, disabled, dynamicAlign, focused, horizontalAlign, horizontalOffset, ignoreSelect, noAnimations, noOverlap, opened, restoreFocusOnClose, stopKeyboardEventPropagation, verticalAlign, verticalOffset
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

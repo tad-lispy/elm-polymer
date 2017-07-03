@@ -1,5 +1,14 @@
 module Polymer.Paper.Checkbox.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs active, ariaActiveAttribute, checked, disabled, focused, invalid, name, noink, pointerDown, pressed, receivedFocusFromKeyboard, required, stopKeyboardEventPropagation, toggles, validator, value
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

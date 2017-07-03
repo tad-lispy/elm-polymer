@@ -1,5 +1,14 @@
 module Polymer.Paper.RadioButton exposing (..)
 
+{-| Elements from paper-radio-button component. See <https://www.webcomponents.org/element/PolymerElements/paper-radio-button>
+
+
+# Elements
+
+@docs radioButton
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

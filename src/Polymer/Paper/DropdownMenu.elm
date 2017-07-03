@@ -1,5 +1,14 @@
 module Polymer.Paper.DropdownMenu exposing (..)
 
+{-| Elements from paper-dropdown-menu component. See <https://www.webcomponents.org/element/PolymerElements/paper-dropdown-menu>
+
+
+# Elements
+
+@docs dropdownMenu
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

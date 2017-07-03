@@ -1,5 +1,14 @@
 module Polymer.Paper.Input exposing (..)
 
+{-| Elements from paper-input component. See <https://www.webcomponents.org/element/PolymerElements/paper-input>
+
+
+# Elements
+
+@docs inputCharCounter, inputContainer, inputError, input, textarea
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

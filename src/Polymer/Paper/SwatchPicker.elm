@@ -1,5 +1,14 @@
 module Polymer.Paper.SwatchPicker exposing (..)
 
+{-| Elements from paper-swatch-picker component. See <https://www.webcomponents.org/element/PolymerElements/paper-swatch-picker>
+
+
+# Elements
+
+@docs swatchPicker
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

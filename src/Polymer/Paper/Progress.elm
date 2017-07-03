@@ -1,5 +1,14 @@
 module Polymer.Paper.Progress exposing (..)
 
+{-| Elements from paper-progress component. See <https://www.webcomponents.org/element/PolymerElements/paper-progress>
+
+
+# Elements
+
+@docs progress
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

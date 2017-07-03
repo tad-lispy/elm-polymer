@@ -1,5 +1,14 @@
 module Polymer.Paper.Badge exposing (..)
 
+{-| Elements from paper-badge component. See <https://www.webcomponents.org/element/PolymerElements/paper-badge>
+
+
+# Elements
+
+@docs badge
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

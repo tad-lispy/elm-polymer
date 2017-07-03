@@ -1,5 +1,14 @@
 module Polymer.Paper.Tooltip exposing (..)
 
+{-| Elements from paper-tooltip component. See <https://www.webcomponents.org/element/PolymerElements/paper-tooltip>
+
+
+# Elements
+
+@docs tooltip
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

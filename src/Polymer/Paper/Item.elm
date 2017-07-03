@@ -1,5 +1,14 @@
 module Polymer.Paper.Item exposing (..)
 
+{-| Elements from paper-item component. See <https://www.webcomponents.org/element/PolymerElements/paper-item>
+
+
+# Elements
+
+@docs item, iconItem, itemBody
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

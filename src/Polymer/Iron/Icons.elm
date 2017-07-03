@@ -1,5 +1,14 @@
 module Polymer.Iron.Icons exposing (..)
 
+{-| Elements from iron-icons component. See <https://www.webcomponents.org/element/PolymerElements/iron-icons>
+
+
+# Elements
+
+@docs icons, iconsetSvg
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

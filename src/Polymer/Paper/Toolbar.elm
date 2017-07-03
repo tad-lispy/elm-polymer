@@ -1,5 +1,14 @@
 module Polymer.Paper.Toolbar exposing (..)
 
+{-| Elements from paper-toolbar component. See <https://www.webcomponents.org/element/PolymerElements/paper-toolbar>
+
+
+# Elements
+
+@docs toolbar
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

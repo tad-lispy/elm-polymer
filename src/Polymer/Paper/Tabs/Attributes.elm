@@ -1,5 +1,14 @@
 module Polymer.Paper.Tabs.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs activateEvent, active, alignBottom, ariaActiveAttribute, attrForItemTitle, attrForSelected, autoselect, autoselectDelay, disableDrag, disabled, fallbackSelection, fitContainer, focused, hideScrollButtons, link, multi, noBar, noSlide, noink, pointerDown, pressed, receivedFocusFromKeyboard, scrollable, selectable, selectedAttribute, selectedClass, stopKeyboardEventPropagation, toggles
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

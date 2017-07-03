@@ -1,5 +1,14 @@
 module Polymer.Paper.Card.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs alt, animated, animatedShadow, elevation, fadeImage, heading, image, placeholderImage, preloadImage
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

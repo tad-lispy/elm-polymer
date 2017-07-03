@@ -1,5 +1,14 @@
 module Polymer.Paper.Input.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs accept, allowedPattern, alwaysFloatLabel, attrForValue, autoValidate, autocapitalize, autocomplete, autocorrect, autofocus, autosave, charCounter, disabled, errorMessage, focused, inputmode, invalid, label, list, max, maxRows, maxlength, min, minlength, multiple, name, noLabelFloat, pattern, placeholder, readonly, required, results, rows, size, step, stopKeyboardEventPropagation, type_, validator, value
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

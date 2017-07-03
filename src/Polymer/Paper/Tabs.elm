@@ -1,5 +1,14 @@
 module Polymer.Paper.Tabs exposing (..)
 
+{-| Elements from paper-tabs component. See <https://www.webcomponents.org/element/PolymerElements/paper-tabs>
+
+
+# Elements
+
+@docs tab, tabs
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

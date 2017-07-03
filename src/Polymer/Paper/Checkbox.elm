@@ -1,5 +1,14 @@
 module Polymer.Paper.Checkbox exposing (..)
 
+{-| Elements from paper-checkbox component. See <https://www.webcomponents.org/element/PolymerElements/paper-checkbox>
+
+
+# Elements
+
+@docs checkbox
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

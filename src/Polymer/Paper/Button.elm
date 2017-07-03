@@ -1,5 +1,14 @@
 module Polymer.Paper.Button exposing (..)
 
+{-| Elements from paper-button component. See <https://www.webcomponents.org/element/PolymerElements/paper-button>
+
+
+# Elements
+
+@docs button
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

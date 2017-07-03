@@ -1,5 +1,14 @@
 module Polymer.Paper.RadioGroup exposing (..)
 
+{-| Elements from paper-radio-group component. See <https://www.webcomponents.org/element/PolymerElements/paper-radio-group>
+
+
+# Elements
+
+@docs radioGroup
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

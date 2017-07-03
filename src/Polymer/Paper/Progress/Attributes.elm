@@ -1,5 +1,14 @@
 module Polymer.Paper.Progress.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs disabled, indeterminate, max, min, ratio, secondaryProgress, secondaryRatio, step, value
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

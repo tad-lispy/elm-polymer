@@ -1,5 +1,14 @@
 module Polymer.App.Layout exposing (..)
 
+{-| Elements from app-layout component. See <https://www.webcomponents.org/element/PolymerElements/app-layout>
+
+
+# Elements
+
+@docs drawer, drawerLayout, grid, header, headerLayout, toolbar, box
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

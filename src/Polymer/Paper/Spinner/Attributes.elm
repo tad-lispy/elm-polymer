@@ -1,5 +1,14 @@
 module Polymer.Paper.Spinner.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs active, alt
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

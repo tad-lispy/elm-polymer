@@ -1,5 +1,14 @@
 module Polymer.Paper.Styles exposing (..)
 
+{-| Elements from paper-styles component. See <https://www.webcomponents.org/element/PolymerElements/paper-styles>
+
+
+# Elements
+
+@docs styles
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

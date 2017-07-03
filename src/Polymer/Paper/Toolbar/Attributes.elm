@@ -1,5 +1,14 @@
 module Polymer.Paper.Toolbar.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs bottomJustify, justify, middleJustify
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

@@ -1,5 +1,14 @@
 module Polymer.Paper.Spinner exposing (..)
 
+{-| Elements from paper-spinner component. See <https://www.webcomponents.org/element/PolymerElements/paper-spinner>
+
+
+# Elements
+
+@docs spinner, spinnerLite
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

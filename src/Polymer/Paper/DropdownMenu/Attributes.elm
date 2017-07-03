@@ -1,5 +1,14 @@
 module Polymer.Paper.DropdownMenu.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs active, allowOutsideScroll, alwaysFloatLabel, ariaActiveAttribute, disabled, dynamicAlign, errorMessage, focused, horizontalAlign, invalid, label, name, noAnimations, noLabelFloat, opened, placeholder, pointerDown, pressed, receivedFocusFromKeyboard, required, restoreFocusOnClose, selectedItemLabel, stopKeyboardEventPropagation, toggles, validator, value, verticalAlign
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

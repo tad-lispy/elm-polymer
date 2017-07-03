@@ -1,5 +1,14 @@
 module Polymer.Paper.MenuButton exposing (..)
 
+{-| Elements from paper-menu-button component. See <https://www.webcomponents.org/element/PolymerElements/paper-menu-button>
+
+
+# Elements
+
+@docs menuGrowHeightAnimation, menuGrowWidthAnimation, menuShrinkWidthAnimation, menuShrinkHeightAnimation, menuButton
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

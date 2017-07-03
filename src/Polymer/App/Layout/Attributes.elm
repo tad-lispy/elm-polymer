@@ -1,5 +1,14 @@
 module Polymer.App.Layout.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs align, disabled, condenses, disableSwipe, effects, fixed, forceNarrow, hasScrollingRegion, narrow, noFocusTrap, opened, openedWhenNarrow, persistent, position, responsiveWidth, reveals, shadow, swipeOpen, threshold, thresholdTriggered, transitionDuration
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

@@ -1,5 +1,14 @@
 module Polymer.Paper.Listbox exposing (..)
 
+{-| Elements from paper-listbox component. See <https://www.webcomponents.org/element/PolymerElements/paper-listbox>
+
+
+# Elements
+
+@docs listbox
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

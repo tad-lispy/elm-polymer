@@ -1,5 +1,14 @@
 module Polymer.Paper.Listbox.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs activateEvent, attrForItemTitle, attrForSelected, disabled, fallbackSelection, multi, selectable, selectedAttribute, selectedClass, stopKeyboardEventPropagation
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

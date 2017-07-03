@@ -1,5 +1,14 @@
 module Polymer.Iron.Icons.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs name, rtlMirroring, size
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

@@ -1,5 +1,14 @@
 module Polymer.Paper.Badge.Attributes exposing (..)
 
+{-| Attributes from component. See <https://www.webcomponents.org/element/PolymerElements/>
+
+
+# Attributes
+
+@docs for, icon, label
+
+-}
+
 import Html exposing (Attribute)
 import Polymer.Attributes as Attributes
 

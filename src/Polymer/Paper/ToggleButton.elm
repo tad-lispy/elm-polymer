@@ -1,5 +1,14 @@
 module Polymer.Paper.ToggleButton exposing (..)
 
+{-| Elements from paper-toggle-button component. See <https://www.webcomponents.org/element/PolymerElements/paper-toggle-button>
+
+
+# Elements
+
+@docs toggleButton
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

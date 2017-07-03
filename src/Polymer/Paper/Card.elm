@@ -1,5 +1,14 @@
 module Polymer.Paper.Card exposing (..)
 
+{-| Elements from paper-card component. See <https://www.webcomponents.org/element/PolymerElements/paper-card>
+
+
+# Elements
+
+@docs card
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 

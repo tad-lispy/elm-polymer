@@ -1,5 +1,14 @@
 module Polymer.Paper.IconButton exposing (..)
 
+{-| Elements from paper-icon-button component. See <https://www.webcomponents.org/element/PolymerElements/paper-icon-button>
+
+
+# Elements
+
+@docs iconButton
+
+-}
+
 import Html exposing (Html, Attribute, node)
 
 
