@@ -6,9 +6,11 @@ source "scripts/common.sh"
 
 name="$1"
 prefix="$2"
+component="$3"
 
+# TODO: Get list of elements for @docs references
 # Output Elm code - header of the elements module
-export name
+export name component
 envsubst < "templates/elements-header.elm"
 
 jq --compact-output ".elements[] " \

@@ -11,7 +11,8 @@ function write_module {
   local name=$1       # Elm comaptible module name
   local type=$2       # elements | attributes | events
   local prefix=$3     # prefix to drop from each element function name
-  local analysis="$4" # JSON string
+  local component=$4  # Component name, e.g. paper-button
+  local analysis="$5" # JSON string
 
 
 
@@ -20,13 +21,13 @@ function write_module {
   echo "Writing Elm code to ${path}"
   mkdir -p "$(dirname ${path})"
   echo ${analysis} \
-    | scripts/generate-${type}.sh ${name} ${prefix} \
+    | scripts/generate-${type}.sh ${name} ${prefix} ${component} \
     > ${path}
 
   elm-format-0.18 --yes ${path} \
     || echo "
       Failed to format ${path}. Please fix it manually.
-    " 1>&2 
+    " 1>&2
 }
 
 api="https://www.webcomponents.org/api"
@@ -64,8 +65,8 @@ do
 
     # Generate elements and attributes module
 
-    write_module ${module} elements ${collection} "${analysis}"
-    write_module ${module}.Attributes attributes ${collection} "${analysis}"
+    write_module ${module} elements ${collection} ${component} "${analysis}"
+    write_module ${module}.Attributes attributes ${collection} ${component} "${analysis}"
     # write_module ${module}.Events events ${collection} "${analysis}"
 
   done
