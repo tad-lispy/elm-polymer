@@ -13,5 +13,18 @@ The format is based on [Keep a Changelog][] and this project adheres to [Semanti
 - Scaffolded code
 - Web components assets
 
+## [1.0.1]
+
+### Fixed
+- repository field in elm-package.json
+
+## [1.0.2]
+
+### Added
+- Installation instructions in readme
+
+### Fixed
+- Version mismatch in elm-package.json
+
 [Semantic Versioning]: http://semver.org/spec/v2.0.0.html
 [Keep a Changelog]: (http://keepachangelog.com/en/1.0.0/
