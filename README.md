@@ -6,9 +6,17 @@ Elm bindings to some of the [PolymerElements Web Components][PolymerElements].
 
 ## Install
 
-```
+```sh
 elm-package install lzrski/elm-polymer
 ```
+
+You also need to link Polymer web components bundle in your HTML:
+
+```html
+<link rel="import" href="https://cdn.rawgit.com/lzrski/elm-polymer/1.0.0/assets/web-components-bundle.html">
+```
+
+If you don't want to use CDN you can also download it. It's just this one file.
 
 ## Use
 
