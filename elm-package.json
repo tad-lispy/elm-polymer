@@ -1,5 +1,5 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "summary": "Elm bindings to some of the PolymerElements Web Components",
     "repository": "https://github.com/lzrski/elm-polymer.git",
     "license": "BSD3",
