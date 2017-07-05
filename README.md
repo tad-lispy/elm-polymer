@@ -2,8 +2,6 @@
 
 Elm bindings to some of the [PolymerElements Web Components][PolymerElements].
 
-> Warning: This is an experiment on a rather early stage.
-
 ## Install
 
 ```sh
@@ -78,6 +76,6 @@ If you want to contribute (please do!) here is how to use local copy of this lib
     ln -s ../../elm-polymer/src/Polymer src/
     ```
 
-Now you may make changes to the library and your app should pick them up on next build. If the changes are useful, please share back via PR.
+Now you may make changes to the library and your app should pick them up on next build. Please share back via PR.
 
 [PolymerElements]: https://www.webcomponents.org/author/PolymerElements
