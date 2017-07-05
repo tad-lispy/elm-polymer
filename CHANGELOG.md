@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog][] and this project adheres to [Semanti
 
 ## [Unreleased]
 
+
+## [1.0.7] - 2017-07-05
+
 ### Changed
 - Removed warning from the readme
 
