@@ -10,18 +10,6 @@ The format is based on [Keep a Changelog][] and this project adheres to [Semanti
 
 - Mention viewport, fonts etc. in readme @lzrski
 
-## [1.0.0]
-
-### Added
-- Scripts to scaffold code
-- Scaffolded code
-- Web components assets
-
-## [1.0.1]
-
-### Fixed
-- repository field in elm-package.json
-
 ## [1.0.2]
 
 ### Added
@@ -29,6 +17,18 @@ The format is based on [Keep a Changelog][] and this project adheres to [Semanti
 
 ### Fixed
 - Version mismatch in elm-package.json
+
+## [1.0.1]
+
+### Fixed
+- repository field in elm-package.json
+
+## [1.0.0]
+
+### Added
+- Scripts to scaffold code
+- Scaffolded code
+- Web components assets
 
 [Semantic Versioning]: http://semver.org/spec/v2.0.0.html
 [Keep a Changelog]: (http://keepachangelog.com/en/1.0.0/
