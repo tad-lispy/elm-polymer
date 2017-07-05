@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog][] and this project adheres to [Semanti
 
 ## [Unreleased]
 
+### Added
+
+- Mention viewport, fonts etc. in readme @lzrski
+
 ## [1.0.0]
 
 ### Added
