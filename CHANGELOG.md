@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog][] and this project adheres to [Semanti
 
 ## [Unreleased]
 
+### Changed
+- Edits to the presentation slides for tomorrow by @lzrski
 
 ## [1.0.5] - 2017-07-05
 
