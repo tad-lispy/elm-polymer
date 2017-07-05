@@ -6,30 +6,36 @@ The format is based on [Keep a Changelog][] and this project adheres to [Semanti
 
 ## [Unreleased]
 
+### Added
+- Automatic bump and publish script for Elm package by @lzrski
+
+### Fixed
+- Past release dates in changelog by @lzrski
+- Mention authors (i.e. me :) in changelog by @lzrski
 
 ## [1.0.4] - 2017-07-05
 
 ### Added
 
-- Mention viewport, fonts etc. in readme @lzrski
+- Mention viewport, fonts etc. in readme by @lzrski
 
-## [1.0.2]
-
-### Added
-- Installation instructions in readme
-
-### Fixed
-- Version mismatch in elm-package.json
-
-## [1.0.1]
-
-### Fixed
-- repository field in elm-package.json
-
-## [1.0.0]
+## [1.0.2] - 2017-07-04
 
 ### Added
-- Scripts to scaffold code
+- Installation instructions in readme by @lzrski
+
+### Fixed
+- Version mismatch in elm-package.json by @lzrski
+
+## [1.0.1] - 2017-07-04
+
+### Fixed
+- repository field in elm-package.json by @lzrski
+
+## [1.0.0] - 2017-07-03
+
+### Added
+- Scripts to scaffold code by @lzrski
 - Scaffolded code
 - Web components assets
 
